@@ -13,9 +13,11 @@ Interfaz web interactiva desarrollada con Gradio que consume la API local de AUT
 2. Iniciar Terminal 1 (servidor):
    ```bash
    ./webui.sh --api
+   ```
    *Servidor activo en: http://127.0.0.1:7860*
 
 3. Iniciar Terminal 2 (interfaz):
    ```bash
    python3 cliente_avanzado.py
+   ```
    *Interfaz activa en: http://127.0.0.1:7861*
